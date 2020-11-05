@@ -35,7 +35,9 @@ gem 'devise'
 
 # to add photos
 # for file uploads
-gem 'carrierwave', "0.10.0"
+gem 'carrierwave-aws'
+
+# gem 'carrierwave', "0.10.0"
 gem 'fog', '~> 1.37.0'
 
 # image resizing/ handling images after they upload/ creating thumbnails
